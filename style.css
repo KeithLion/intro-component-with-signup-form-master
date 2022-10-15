@@ -26,3 +26,12 @@
         background-repeat: no-repeat;
         background-color: var(--red);
     }
+
+    main{
+display: flex;
+justify-content: space-evenly;
+    }
+
+    form{
+        background-color: white;
+    }
