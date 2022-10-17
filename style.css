@@ -11,14 +11,15 @@
         /* Primary */
         --red :hsl(0, 100%, 74%);
         --green :hsl(154, 59%, 51%);
+        --shadow_green: hsl(154, 59%, 51%, 50%);
 
         /* Accent */
         --blue :hsl(248, 32%, 49%);
 
         /* Neutral */
         --dark_blue :hsl(249, 10%, 26%);
+        --shadow_blue: hsl(249, 10%, 26%, 30%);
         --grayish_blue :hsl(246, 25%, 77%);
-
     }
 
     body{
@@ -69,7 +70,7 @@
         border-radius: 5px;
         margin-bottom: 20px;
         width: 400px;
-        box-shadow: 0px 3px var(--dark_blue);
+        box-shadow: 0px 6px var(--shadow_blue);
     }
 
     .conditions{
