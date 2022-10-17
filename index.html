@@ -12,41 +12,70 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Intro component with sign up form</title>
   </head>
   <body>
     <main>
-      <section>
-        <blockquote>Learn to code by watching others</blockquote>
-        <blockquote>
+      <section class="quote">
+        <blockquote class="learn">Learn to code by watching others</blockquote>
+        <blockquote class="quoteBlock">
           See how experienced developers solve problems in real-time. Watching
           scripted tutorials is great, but understanding how developers think is
           invaluable.
         </blockquote>
       </section>
-      <section>
-        <button>Try it free 7 days then $20/mo. thereafter</button>
+      <section class="form">
+        <button class="trial" type="button">
+          Try it free 7 days <span>then $20/mo. thereafter</span>
+        </button>
         <form action="">
           <label for="firstN">
-            <input type="text" name="firstN" id="" value="First Name" />
+            <input
+              type="text"
+              name="firstN"
+              id=""
+              placeholder="First Name"
+              required
+            />
           </label>
           <label for="lastN">
-            <input type="text" name="lastN" id="" value="First Name" />
+            <input
+              type="text"
+              name="lastN"
+              id=""
+              placeholder="Last Name"
+              required
+            />
           </label>
           <label for="email">
-            <input type="email" name="email" id="" value="First Name" />
+            <input
+              type="email"
+              name="email"
+              id=""
+              placeholder="Email"
+              required
+            />
           </label>
           <label for="password">
-            <input type="password" name="password" id="" value="First Name" />
+            <input
+              type="password"
+              name="password"
+              id=""
+              placeholder="Password"
+              required
+            />
           </label>
+          <button type="submit" class="submit">Claim your free trial</button>
+          <blockquote class="conditions">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </blockquote>
         </form>
-
-        <!-- First Name Last Name Email Address Password -->
-        <button>Claim your free trial</button>
-        <blockquote>
-          By clicking the button, you are agreeing to our Terms and Services
-        </blockquote>
       </section>
     </main>
     <footer>
